@@ -10,6 +10,7 @@ const compatibilityApps = [{
 
 const config = {
   apps: [
+    app("ra-trustvox"),
     app("anthropic"),
     app("resend"),
     app("konfidency"),
