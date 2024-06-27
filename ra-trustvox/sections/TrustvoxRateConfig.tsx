@@ -14,7 +14,7 @@ export default function TrustvoxRateConfig() {
   const scriptUrl = enableStaging
     ? "https://storage.googleapis.com/trustvox-rate-staging/widget.js"
     : "https://rate.trustvox.com.br/widget.js";
-    
+
   function setupTrustvoxRateConfig(
     storeId: string,
   ) {
